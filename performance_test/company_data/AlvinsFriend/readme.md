@@ -25,4 +25,4 @@ or
 ```
 6. open `http://127.0.0.1:8089` in a web browser. You are able to configure the number of users and the rate of increase of users.
 
-To test other teams API's cd into their directory and run the `run_test_alvins_friend.sh` script.
+To test other teams API's cd into their directory and run the `run_test.sh` script.
