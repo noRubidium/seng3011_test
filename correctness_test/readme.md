@@ -3,7 +3,6 @@
 ## Test Files Within the correctness-testing directory:
 * Correctness-tests.robot (our test suite / script which contains all our test)
 * Expected_outputs (a folder with all expected output .json files)
-* Sample_reports (a folder containing a sample report and log produced by the framework)
 * run_test.sh
 
 ##  Requirements:
