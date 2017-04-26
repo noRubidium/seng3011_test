@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170426 18:57:32.910" generator="Robot 3.0.2 (Python 3.5.2 on darwin)">
+<suite name="Correctness-Tests" source="/Users/vaishnavibapat/Documents/UNI/Seng/testing/correctness_test/Eleven51/correctness-tests.robot" id="s1">
+<test name="M.1.1 Merch All Variables No Dates" id="s1-t1">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:32.960">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:32.960" status="FAIL" starttime="20170426 18:57:32.960"></status>
+</kw>
+<status endtime="20170426 18:57:32.960" status="FAIL" starttime="20170426 18:57:32.957"></status>
+</kw>
+<tags>
+<tag>happy-day</tag>
+</tags>
+<status endtime="20170426 18:57:32.961" status="FAIL" critical="yes" starttime="20170426 18:57:32.957">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.1.1 Retail All Variables No Dates" id="s1-t2">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:32.964">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:32.964" status="FAIL" starttime="20170426 18:57:32.964"></status>
+</kw>
+<status endtime="20170426 18:57:32.964" status="FAIL" starttime="20170426 18:57:32.961"></status>
+</kw>
+<status endtime="20170426 18:57:32.965" status="FAIL" critical="yes" starttime="20170426 18:57:32.961">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.1.2 Merch All Variables Entire Date Range" id="s1-t3">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:32.968">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:32.968" status="FAIL" starttime="20170426 18:57:32.968"></status>
+</kw>
+<status endtime="20170426 18:57:32.969" status="FAIL" starttime="20170426 18:57:32.966"></status>
+</kw>
+<status endtime="20170426 18:57:32.969" status="FAIL" critical="yes" starttime="20170426 18:57:32.965">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.1.2 Retail All Variables Entire Date Range" id="s1-t4">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:32.973">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:32.973" status="FAIL" starttime="20170426 18:57:32.973"></status>
+</kw>
+<status endtime="20170426 18:57:32.973" status="FAIL" starttime="20170426 18:57:32.970"></status>
+</kw>
+<status endtime="20170426 18:57:32.973" status="FAIL" critical="yes" starttime="20170426 18:57:32.969">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.1.3 Merch All Variables Date Range Beyond All Data" id="s1-t5">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:32.977">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:32.977" status="FAIL" starttime="20170426 18:57:32.977"></status>
+</kw>
+<status endtime="20170426 18:57:32.977" status="FAIL" starttime="20170426 18:57:32.974"></status>
+</kw>
+<status endtime="20170426 18:57:32.977" status="FAIL" critical="yes" starttime="20170426 18:57:32.974">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.1.3 Retail All Variables Date Range Beyond All Data" id="s1-t6">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:32.982">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:32.982" status="FAIL" starttime="20170426 18:57:32.981"></status>
+</kw>
+<status endtime="20170426 18:57:32.982" status="FAIL" starttime="20170426 18:57:32.978"></status>
+</kw>
+<status endtime="20170426 18:57:32.982" status="FAIL" critical="yes" starttime="20170426 18:57:32.978">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.E.1.1 Merch Error Incorrect Stats Area" id="s1-t7">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:32.990">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:32.990" status="FAIL" starttime="20170426 18:57:32.990"></status>
+</kw>
+<status endtime="20170426 18:57:32.990" status="FAIL" starttime="20170426 18:57:32.984"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:32.991" status="FAIL" critical="yes" starttime="20170426 18:57:32.983">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.E.1.1 Retail Error Incorrect Stats Area" id="s1-t8">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:32.995">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:32.995" status="FAIL" starttime="20170426 18:57:32.995"></status>
+</kw>
+<status endtime="20170426 18:57:32.995" status="FAIL" starttime="20170426 18:57:32.992"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:32.995" status="FAIL" critical="yes" starttime="20170426 18:57:32.991">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.E.1.2 Merch Error Incorrect Commodities" id="s1-t9">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:32.999">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:32.999" status="FAIL" starttime="20170426 18:57:32.999"></status>
+</kw>
+<status endtime="20170426 18:57:32.999" status="FAIL" starttime="20170426 18:57:32.996"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.000" status="FAIL" critical="yes" starttime="20170426 18:57:32.996">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.E.1.2 Retail Error Incorrect Categories" id="s1-t10">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.005">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.005" status="FAIL" starttime="20170426 18:57:33.004"></status>
+</kw>
+<status endtime="20170426 18:57:33.006" status="FAIL" starttime="20170426 18:57:33.001"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.007" status="FAIL" critical="yes" starttime="20170426 18:57:33.000">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.E.1.3 Merch Error Incorrect States" id="s1-t11">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.014">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.014" status="FAIL" starttime="20170426 18:57:33.014"></status>
+</kw>
+<status endtime="20170426 18:57:33.014" status="FAIL" starttime="20170426 18:57:33.009"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.014" status="FAIL" critical="yes" starttime="20170426 18:57:33.008">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.E.1.3 Retail Error Incorrect States" id="s1-t12">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.020">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.020" status="FAIL" starttime="20170426 18:57:33.020"></status>
+</kw>
+<status endtime="20170426 18:57:33.020" status="FAIL" starttime="20170426 18:57:33.016"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.021" status="FAIL" critical="yes" starttime="20170426 18:57:33.015">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.E.2.1 Merch Error EndDate before StartDate" id="s1-t13">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.027">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.027" status="FAIL" starttime="20170426 18:57:33.027"></status>
+</kw>
+<status endtime="20170426 18:57:33.027" status="FAIL" starttime="20170426 18:57:33.023"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.028" status="FAIL" critical="yes" starttime="20170426 18:57:33.022">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.E.2.1 Retail Error EndDate before StartDate" id="s1-t14">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.034">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.034" status="FAIL" starttime="20170426 18:57:33.034"></status>
+</kw>
+<status endtime="20170426 18:57:33.034" status="FAIL" starttime="20170426 18:57:33.029"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.035" status="FAIL" critical="yes" starttime="20170426 18:57:33.028">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.E.2.2 Merch Error Invalid start date not in YYYY-MM-DD format" id="s1-t15">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.039">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.039" status="FAIL" starttime="20170426 18:57:33.039"></status>
+</kw>
+<status endtime="20170426 18:57:33.039" status="FAIL" starttime="20170426 18:57:33.036"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.039" status="FAIL" critical="yes" starttime="20170426 18:57:33.035">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.E.2.2 Retail Error Invalid start date not in YYYY-MM-DD format" id="s1-t16">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.044">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.044" status="FAIL" starttime="20170426 18:57:33.044"></status>
+</kw>
+<status endtime="20170426 18:57:33.044" status="FAIL" starttime="20170426 18:57:33.041"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.045" status="FAIL" critical="yes" starttime="20170426 18:57:33.040">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.E.2.3 Merch Error Invalid End date not in YYYY-MM-DD format" id="s1-t17">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.049">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.049" status="FAIL" starttime="20170426 18:57:33.049"></status>
+</kw>
+<status endtime="20170426 18:57:33.049" status="FAIL" starttime="20170426 18:57:33.046"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.049" status="FAIL" critical="yes" starttime="20170426 18:57:33.045">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.E.2.3 Retail Error Invalid End date not in YYYY-MM-DD format" id="s1-t18">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.054">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.054" status="FAIL" starttime="20170426 18:57:33.054"></status>
+</kw>
+<status endtime="20170426 18:57:33.054" status="FAIL" starttime="20170426 18:57:33.051"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.055" status="FAIL" critical="yes" starttime="20170426 18:57:33.050">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.E.2.4 Merch Error Start date after current Date" id="s1-t19">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.059">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.060" status="FAIL" starttime="20170426 18:57:33.059"></status>
+</kw>
+<status endtime="20170426 18:57:33.060" status="FAIL" starttime="20170426 18:57:33.056"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.061" status="FAIL" critical="yes" starttime="20170426 18:57:33.055">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.E.2.4 Retail Error Start date after current Date" id="s1-t20">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.065">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.066" status="FAIL" starttime="20170426 18:57:33.065"></status>
+</kw>
+<status endtime="20170426 18:57:33.066" status="FAIL" starttime="20170426 18:57:33.062"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.066" status="FAIL" critical="yes" starttime="20170426 18:57:33.061">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.E.2.5 Merch Error Date Day nonexistant &quot;2011-15-19&quot;" id="s1-t21">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.073">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.074" status="FAIL" starttime="20170426 18:57:33.073"></status>
+</kw>
+<status endtime="20170426 18:57:33.075" status="FAIL" starttime="20170426 18:57:33.068"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.076" status="FAIL" critical="yes" starttime="20170426 18:57:33.067">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.E.2.5 Retail Error Date nonexistant &quot;2011-12-32&quot;" id="s1-t22">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.080">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.080" status="FAIL" starttime="20170426 18:57:33.080"></status>
+</kw>
+<status endtime="20170426 18:57:33.080" status="FAIL" starttime="20170426 18:57:33.077"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.080" status="FAIL" critical="yes" starttime="20170426 18:57:33.076">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.E.2.6 Merch Error 29th Feb, non leap year &quot;2013-02-29&quot;" id="s1-t23">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.085">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.085" status="FAIL" starttime="20170426 18:57:33.084"></status>
+</kw>
+<status endtime="20170426 18:57:33.085" status="FAIL" starttime="20170426 18:57:33.081"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.085" status="FAIL" critical="yes" starttime="20170426 18:57:33.081">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.E.2.6 Retail Error 29th Feb, non leap year &quot;2011-02-29&quot;" id="s1-t24">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.091">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.092" status="FAIL" starttime="20170426 18:57:33.091"></status>
+</kw>
+<status endtime="20170426 18:57:33.092" status="FAIL" starttime="20170426 18:57:33.086"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.092" status="FAIL" critical="yes" starttime="20170426 18:57:33.086">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.3.1 Merch Only Categories Supplied" id="s1-t25">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.096">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.096" status="FAIL" starttime="20170426 18:57:33.096"></status>
+</kw>
+<status endtime="20170426 18:57:33.096" status="FAIL" starttime="20170426 18:57:33.093"></status>
+</kw>
+<tags>
+<tag>happy-day</tag>
+</tags>
+<status endtime="20170426 18:57:33.097" status="FAIL" critical="yes" starttime="20170426 18:57:33.093">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.3.1 Retail only Categories Supplied" id="s1-t26">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.101">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.101" status="FAIL" starttime="20170426 18:57:33.101"></status>
+</kw>
+<status endtime="20170426 18:57:33.101" status="FAIL" starttime="20170426 18:57:33.098"></status>
+</kw>
+<status endtime="20170426 18:57:33.101" status="FAIL" critical="yes" starttime="20170426 18:57:33.097">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.3.2 Merch Categories and States supplied" id="s1-t27">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.105">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.105" status="FAIL" starttime="20170426 18:57:33.105"></status>
+</kw>
+<status endtime="20170426 18:57:33.105" status="FAIL" starttime="20170426 18:57:33.102"></status>
+</kw>
+<status endtime="20170426 18:57:33.106" status="FAIL" critical="yes" starttime="20170426 18:57:33.102">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.3.2 Retail Categories and States supplied" id="s1-t28">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.110">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.110" status="FAIL" starttime="20170426 18:57:33.110"></status>
+</kw>
+<status endtime="20170426 18:57:33.110" status="FAIL" starttime="20170426 18:57:33.107"></status>
+</kw>
+<status endtime="20170426 18:57:33.111" status="FAIL" critical="yes" starttime="20170426 18:57:33.106">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.3.3 Merch Categories, States and Start Date supplied" id="s1-t29">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.120">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.120" status="FAIL" starttime="20170426 18:57:33.120"></status>
+</kw>
+<status endtime="20170426 18:57:33.121" status="FAIL" starttime="20170426 18:57:33.115"></status>
+</kw>
+<tags>
+<tag>happy-day</tag>
+</tags>
+<status endtime="20170426 18:57:33.121" status="FAIL" critical="yes" starttime="20170426 18:57:33.111">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.3.3 Retail Categories, States and Start Date supplied" id="s1-t30">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.128">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.128" status="FAIL" starttime="20170426 18:57:33.128"></status>
+</kw>
+<status endtime="20170426 18:57:33.128" status="FAIL" starttime="20170426 18:57:33.123"></status>
+</kw>
+<status endtime="20170426 18:57:33.129" status="FAIL" critical="yes" starttime="20170426 18:57:33.121">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.3.4 Merch Categories ,States and EndDate supplied" id="s1-t31">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.133">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.133" status="FAIL" starttime="20170426 18:57:33.133"></status>
+</kw>
+<status endtime="20170426 18:57:33.133" status="FAIL" starttime="20170426 18:57:33.130"></status>
+</kw>
+<status endtime="20170426 18:57:33.134" status="FAIL" critical="yes" starttime="20170426 18:57:33.129">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.3.4 Retail Categories States and EndDate supplied" id="s1-t32">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.138">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.139" status="FAIL" starttime="20170426 18:57:33.138"></status>
+</kw>
+<status endtime="20170426 18:57:33.140" status="FAIL" starttime="20170426 18:57:33.135"></status>
+</kw>
+<status endtime="20170426 18:57:33.140" status="FAIL" critical="yes" starttime="20170426 18:57:33.134">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.3.5 Merch Categories, States, Start date and EndDate supplied" id="s1-t33">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.145">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.145" status="FAIL" starttime="20170426 18:57:33.145"></status>
+</kw>
+<status endtime="20170426 18:57:33.145" status="FAIL" starttime="20170426 18:57:33.141"></status>
+</kw>
+<status endtime="20170426 18:57:33.145" status="FAIL" critical="yes" starttime="20170426 18:57:33.141">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.3.5 Retail Categories, States, Start date and EndDate supplied" id="s1-t34">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.150">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.150" status="FAIL" starttime="20170426 18:57:33.149"></status>
+</kw>
+<status endtime="20170426 18:57:33.150" status="FAIL" starttime="20170426 18:57:33.147"></status>
+</kw>
+<status endtime="20170426 18:57:33.150" status="FAIL" critical="yes" starttime="20170426 18:57:33.146">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.3.6 Merch Valid Input, StartDate=1994-02-20, EndDate=1996-05-20. Data starts from 1995-07-31" id="s1-t35">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.156">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.156" status="FAIL" starttime="20170426 18:57:33.156"></status>
+</kw>
+<status endtime="20170426 18:57:33.157" status="FAIL" starttime="20170426 18:57:33.151"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.157" status="FAIL" critical="yes" starttime="20170426 18:57:33.151">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.3.6 Retail Valid Input, StartDate=1997-03-02 and EndDate=1996-05-20. Data starts from 1982-04-30" id="s1-t36">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.164">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.165" status="FAIL" starttime="20170426 18:57:33.164"></status>
+</kw>
+<status endtime="20170426 18:57:33.166" status="FAIL" starttime="20170426 18:57:33.159"></status>
+</kw>
+<status endtime="20170426 18:57:33.166" status="FAIL" critical="yes" starttime="20170426 18:57:33.157">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="M.E.3.1 Merch Valid Input No Results Found for Tasmania,ACT" id="s1-t37">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.171">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.171" status="FAIL" starttime="20170426 18:57:33.171"></status>
+</kw>
+<status endtime="20170426 18:57:33.171" status="FAIL" starttime="20170426 18:57:33.167"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.172" status="FAIL" critical="yes" starttime="20170426 18:57:33.167">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<test name="R.E.3.1 Retail Valid input but no results found" id="s1-t38">
+<kw name="Create API Context" type="setup">
+<kw name="Create Http Context">
+<arguments>
+<arg>127.0.0.1:8000</arg>
+<arg>http</arg>
+</arguments>
+<msg level="FAIL" timestamp="20170426 18:57:33.179">No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</msg>
+<status endtime="20170426 18:57:33.179" status="FAIL" starttime="20170426 18:57:33.179"></status>
+</kw>
+<status endtime="20170426 18:57:33.179" status="FAIL" starttime="20170426 18:57:33.175"></status>
+</kw>
+<tags>
+<tag>error</tag>
+</tags>
+<status endtime="20170426 18:57:33.179" status="FAIL" critical="yes" starttime="20170426 18:57:33.173">Setup failed:
+No keyword with name 'Create Http Context' found. Did you mean:
+    Create API Context</status>
+</test>
+<status endtime="20170426 18:57:33.181" status="FAIL" starttime="20170426 18:57:32.912"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="38" pass="0">Critical Tests</stat>
+<stat fail="38" pass="0">All Tests</stat>
+</total>
+<tag>
+<stat fail="21" pass="0">error</stat>
+<stat fail="3" pass="0">happy-day</stat>
+</tag>
+<suite>
+<stat name="Correctness-Tests" fail="38" pass="0" id="s1">Correctness-Tests</stat>
+</suite>
+</statistics>
+<errors>
+<msg level="ERROR" timestamp="20170426 18:57:32.946">Error in file '/Users/vaishnavibapat/Documents/UNI/Seng/testing/correctness_test/Eleven51/correctness-tests.robot': Importing test library 'HttpLibrary.HTTP' failed: SyntaxError: invalid syntax (__init__.py, line 16)
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /Library/Frameworks/Python.framework/Versions/3.5/bin
+  /Library/Frameworks/Python.framework/Versions/3.5/lib/python35.zip
+  /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5
+  /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/plat-darwin
+  /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/lib-dynload
+  /Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages</msg>
+</errors>
+</robot>
