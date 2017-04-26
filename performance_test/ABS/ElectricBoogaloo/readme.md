@@ -21,7 +21,7 @@ or
 ```
 5. Run the following command
 ```bash
-  bash run_test.sh
+  bash run_test_electric_boogaloo.sh
 ```
 6. open `http://127.0.0.1:8089` in a web browser. You are able to configure the number of users and the rate of increase of users.
 
