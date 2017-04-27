@@ -17,12 +17,16 @@ if you run `python --version` in the terminal, it gives you
 `Python 2.7.X`
 2. Make sure you are under Linux environment, and have the support to run bash script.
 3. Make sure the Internet connection is good.
-4. Run the following command
+4. Change directories into Eleven51 to test our API. (cd into TeamRocket to run our tests for TeamRocket's API)
+```bash
+  cd Eleven51
+```
+5. Run the following command
 ```bash
   bash run_test.sh
 ```
-5. This will install (through pip) the robot framework and necessary libraries, then run our test script by `robot correctness-tests.robot`
+6. This will install (through pip) the robot framework and necessary libraries, then run our test script by `robot correctness-tests.robot`
 
 Test results will be printed to the terminal, with an associated report and log being produced within the root directory. 
-## Miscelaneous
+## Miscellaneous
 If there are any issues with the run_test.sh script, then run the scrip with admin privileges.
