@@ -12,18 +12,22 @@ Create API Context
   Create Http Context         api.kaiworship.xyz   http
 
 *** Test Cases ***
-M.1.1 Merch All Variables No Dates
+M.1.1 Merch Subset of Commodities, States and Dates
 
 	[Tags]  happy-day 
 
 	${stats_area} =   Set Variable	MerchandiseExports
-	${categories} = 	Set Variable  Total,FoodAndLiveAnimals,BeveragesAndTobacco,CrudeMaterialAndInedible,MineralFuelLubricantAndRelatedMaterial,AnimalAndVegetableOilFatAndWaxes,ChemicalsAndRelatedProducts,ManufacturedGoods,MachineryAndTransportEquipments,OtherManufacturedArticles,Unclassified
-	${states} =  			Set Variable 	Total,NSW,WA,SA,ACT,VIC,TAS,QLD,NT
-	${params} =  			Set Variable  ignoreHeader=True
+	${categories} = 	Set Variable  Total,FoodAndLiveAnimals,BeveragesAndTobacco
+	${states} =  			Set Variable 	NSW,WA,SA
+
+  ${start_date} =   Set Variable  2004-02-19
+  ${end_date} =     Set Variable  2005-04-06
+	${params} =  			Set Variable  startDate=${start_date}&endDate=${end_date}&ignoreHeader=True
 
 	${expected} = 		Set Variable  M.1.1.expected.json
 
   Create API Context
+  Next Request May Not Succeed
   GET  							/${VERSION}/${stats_area}/${categories}/${states}?${params}
   Log								${API_ENDPOINT}/${VERSION}/${stats_area}/${categories}/${states}?${params}
 
@@ -37,16 +41,20 @@ M.1.1 Merch All Variables No Dates
   Should Be Equal  	${resp_json}  ${exp_json}
 
  
-R.1.1 Retail All Variables No Dates
+R.1.1 Retail Subset of Categories, States and Dates
 
 	${stats_area} =   Set Variable	Retail
-	${categories} = 	Set Variable  Total,Food,HouseholdGood,ClothingFootwareAndPersonalAccessory,DepartmentStores,CafesRestaurantsAndTakeawayFood,Other
-	${states} =  			Set Variable 	Total,NSW,WA,SA,ACT,VIC,TAS,QLD,NT
-	${params} =  			Set Variable  ignoreHeader=True
+	${categories} = 	Set Variable  Total,Food,HouseholdGood
+	${states} =  			Set Variable 	NSW,WA,SA
+
+  ${start_date} =   Set Variable  2004-02-19
+  ${end_date} =     Set Variable  2005-04-06
+  ${params} =       Set Variable  startDate=${start_date}&endDate=${end_date}&ignoreHeader=True
 
 	${expected} = 		Set Variable  R.1.1.expected.json
 
   Create API Context
+  Next Request May Not Succeed
   GET  							/${VERSION}/${stats_area}/${categories}/${states}?${params}
   Log								${API_ENDPOINT}/${VERSION}/${stats_area}/${categories}/${states}?${params}
 
@@ -73,6 +81,7 @@ M.1.2 Merch All Variables Entire Date Range
 	${expected} = 		Set Variable  M.1.2.expected.json
 
   Create API Context
+  Next Request May Not Succeed
   GET  							/${VERSION}/${stats_area}/${categories}/${states}?${params}
   Log								${API_ENDPOINT}/${VERSION}/${stats_area}/${categories}/${states}?${params}
 
@@ -99,6 +108,7 @@ R.1.2 Retail All Variables Entire Date Range
 	${expected} = 		Set Variable  R.1.2.expected.json
 
   Create API Context
+  Next Request May Not Succeed
   GET  							/${VERSION}/${stats_area}/${categories}/${states}?${params}
   Log								${API_ENDPOINT}/${VERSION}/${stats_area}/${categories}/${states}?${params}
 
@@ -125,6 +135,7 @@ M.1.3 Merch All Variables Date Range Beyond All Data
 	${expected} = 		Set Variable  M.1.3.expected.json
 
   Create API Context
+  Next Request May Not Succeed
   GET  							/${VERSION}/${stats_area}/${categories}/${states}?${params}
   Log								${API_ENDPOINT}/${VERSION}/${stats_area}/${categories}/${states}?${params}
 
@@ -151,6 +162,7 @@ R.1.3 Retail All Variables Date Range Beyond All Data
 	${expected} = 		Set Variable  R.1.3.expected.json
 
   Create API Context
+  Next Request May Not Succeed
   GET  							/${VERSION}/${stats_area}/${categories}/${states}?${params}
   Log								${API_ENDPOINT}/${VERSION}/${stats_area}/${categories}/${states}?${params}
 
@@ -683,7 +695,7 @@ R.E.2.6 Retail Error 29th Feb, non leap year "2011-02-29"
   ${exp_json} =     Parse Json    ${exp_file}
   Should Be Equal   ${resp_json}  ${exp_json}
 
-M.3.1 Merch Only Categories Supplied
+M.3.1 Merch - Only Categories Supplied (Test results only valid for testing during April 2017)
   
   [Tags]  happy-day 
 
@@ -709,7 +721,7 @@ M.3.1 Merch Only Categories Supplied
   Should Be Equal   ${resp_json}  ${exp_json}
 
 
-R.3.1 Retail only Categories Supplied
+R.3.1 Retail - Only Categories Supplied (Test results only valid for testing during April 2017)
 
   ${stats_area} =   Set Variable  Retail
   ${categories} =   Set Variable  Total,Food,HouseholdGood,ClothingFootwareAndPersonalAccessory,DepartmentStores,CafesRestaurantsAndTakeawayFood,Other
