@@ -4,12 +4,12 @@ Library                       OperatingSystem
 Test Setup                    Create API Context
  
 *** Variables ***
-${API_ENDPOINT}               http://127.0.0.1:8000
+${API_ENDPOINT}               http://api.kaiworship.xyz
 ${VERSION}                    v4
 
 *** Keywords ***
 Create API Context
-  Create Http Context         127.0.0.1:8000   http
+  Create Http Context         api.kaiworship.xyz   http
 
 *** Test Cases ***
 M.1.1 Merch All Variables No Dates
