@@ -3,6 +3,7 @@
 ##  Requirements:
 * Python2.7 needs to be installed on the system
 * Bash environment should be enabled
+* official website for locust is this: ([locust](http://locust.io))
 
 ## How to run the tests:
 1. Make sure you have python2.7 installed on your machine, and
